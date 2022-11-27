@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.PROD === true ? "/api" : "http://localhost:18282/api";
+const BASE_URL = "/api";
 
 export const VERSION = BASE_URL + "/version";
 export const HELP = BASE_URL + "/help";
