@@ -3,9 +3,9 @@
     import { location, push } from "svelte-spa-router";
     import { fade } from "svelte/transition";
     import { onMount } from "svelte";
-    import { titles } from "src/title.js";
-    import { routes } from "src/router.js";
-    import { is_login } from "src/user.js";
+    import { titles } from "src/title";
+    import { routes } from "src/router";
+    import { is_login } from "src/user";
 
     /**
      * Update theme-color meta data

@@ -2,8 +2,8 @@
     import { push } from "svelte-spa-router";
     import User from "src/lib/form/User.svelte";
     import { is_loading } from "src/store";
-    import { SIGN_UP } from "src/url.js";
-    import { is_login } from "src/user.js";
+    import { SIGN_UP } from "src/url";
+    import { is_login } from "src/user";
 
     function sign_up(event) {
         $is_loading = true;

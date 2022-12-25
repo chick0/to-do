@@ -1,10 +1,10 @@
 <script>
     import { push } from "svelte-spa-router";
-    import { TODO, TODO_CHECK } from "src/url.js";
-    import { is_login, get_token } from "src/user.js";
-    import { has_label, parse_labels } from "src/label.js";
-    import { to_string } from "src/time.js";
-    import { get_html } from "src/markdown.js";
+    import { TODO, TODO_CHECK } from "src/url";
+    import { is_login, get_token } from "src/user";
+    import { has_label, parse_labels } from "src/label";
+    import { to_string } from "src/time";
+    import { get_html } from "src/markdown";
 
     /**
      * Fetch todo list from api server

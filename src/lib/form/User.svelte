@@ -1,7 +1,6 @@
 <script>
     import { createEventDispatcher } from "svelte";
     import { is_loading } from "src/store";
-
     export let submit_text;
 
     let email = "";

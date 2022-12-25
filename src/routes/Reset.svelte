@@ -1,7 +1,7 @@
 <script>
     import { push } from "svelte-spa-router";
-    import { RESET_STEP_1, RESET_STEP_2 } from "src/url.js";
-    import { is_login } from "src/user.js";
+    import { RESET_STEP_1, RESET_STEP_2 } from "src/url";
+    import { is_login } from "src/user";
 
     let is_loading = true;
     let step = 1;

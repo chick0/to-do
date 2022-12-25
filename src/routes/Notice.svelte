@@ -1,10 +1,10 @@
 <script>
     import { onMount } from "svelte";
     import { push } from "svelte-spa-router";
-    import { get_token } from "src/user.js";
+    import { get_token } from "src/user";
     import { ADMIN, NOTICE } from "src/url";
-    import { get_html } from "src/markdown.js";
-    import { to_string } from "src/time.js";
+    import { get_html } from "src/markdown";
+    import { to_string } from "src/time";
 
     /**
      * Auto-resizing textarea

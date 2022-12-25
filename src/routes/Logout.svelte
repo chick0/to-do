@@ -1,8 +1,8 @@
 <script>
     import { push } from "svelte-spa-router";
-    import { LOGOUT } from "src/url.js";
-    import { get_token } from "src/user.js";
-    import { get_pin_token, set_pin_token } from "src/pin.js";
+    import { LOGOUT } from "src/url";
+    import { get_token } from "src/user";
+    import { get_pin_token, set_pin_token } from "src/pin";
 
     const TOKEN = get_token();
     const pin_token = get_pin_token();

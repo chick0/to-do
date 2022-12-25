@@ -2,9 +2,9 @@
     import { push } from "svelte-spa-router";
     import User from "src/lib/form/User.svelte";
     import { is_loading } from "src/store";
-    import { LOGIN } from "src/url.js";
-    import { get_pin_token } from "src/pin.js";
-    import { is_login, set_token } from "src/user.js";
+    import { LOGIN } from "src/url";
+    import { get_pin_token } from "src/pin";
+    import { is_login, set_token } from "src/user";
 
     function login(event) {
         $is_loading = true;

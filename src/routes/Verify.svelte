@@ -1,6 +1,6 @@
 <script>
     import { push } from "svelte-spa-router";
-    import { VERIFY, VERIFY_SESSION } from "src/url.js";
+    import { VERIFY, VERIFY_SESSION } from "src/url";
 
     const verify_token = sessionStorage.getItem("to-do:verify_token");
 

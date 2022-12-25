@@ -1,6 +1,6 @@
 import { marked } from "marked";
 import DOMPurify from "dompurify";
-import { remove_label } from "src/label.js";
+import { remove_label } from "src/label";
 import "src/markdown.css";
 
 DOMPurify.addHook("afterSanitizeAttributes", function (node) {
