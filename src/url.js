@@ -31,5 +31,3 @@ export const RESET_STEP_1 = RESET + "/step1";
 export const RESET_STEP_2 = RESET + "/step2";
 
 export const ADMIN = BASE_URL + "/admin";
-
-export const NOTICE = BASE_URL + "/notice";

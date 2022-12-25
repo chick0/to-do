@@ -74,10 +74,6 @@
                     if (where_am_i != "/user") {
                         push("/user");
                     }
-                } else if (e.key == "!") {
-                    if (where_am_i != "/notice") {
-                        push("/notice");
-                    }
                 }
             }
         });
@@ -160,6 +156,9 @@
                     </li>
                 {:else}
                     <li>
+                        <a href="#/todo">할 일</a>
+                    </li>
+                    <li>
                         <a href="#/user">계정 정보</a>
                     </li>
                     <li>
@@ -172,9 +171,6 @@
                             }}">로그아웃</a>
                     </li>
                 {/if}
-                <li>
-                    <a href="#/notice">공지사항</a>
-                </li>
             {/if}
         </ul>
     </div>
